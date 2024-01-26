@@ -1,1 +1,9 @@
-rg gtg tehe w54g gg
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp
+spec:
+  containers:
+  - name: dyingalpine
+    image: <alpine>
+    
