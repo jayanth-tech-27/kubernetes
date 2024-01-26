@@ -1,3 +1,4 @@
+---
 apiVersion: v1
 kind: Pod
 metadata:
@@ -5,5 +6,4 @@ metadata:
 spec:
   containers:
   - name: dyingalpine
-    image: <alpine>
-    
+    image: alpine
