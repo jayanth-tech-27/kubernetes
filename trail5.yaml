@@ -10,5 +10,5 @@ spec:
      args:
       - sleep
       - 1d
-  #  - name: httpd
-  #    image: httpd:2.4
+      - name: httpd
+         image: httpd:2.4
