@@ -11,4 +11,4 @@ spec:
       - sleep
       - 30s
    - name: httpd
-     image: httpd2.4
+     image: httpd:2.4
