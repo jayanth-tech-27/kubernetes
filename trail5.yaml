@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: pod
+metadata:
+  name: taril5
+spec:
+ containers:
+   - name: alpine
+     image: alpine
+     args:
+      - sleep
+       - 30s
+   - name: httpd
+     image: httpd2.4
