@@ -9,6 +9,6 @@ spec:
      image: alpine
      args:
       - sleep
-       - 30s
+      - 30s
    - name: httpd
      image: httpd2.4
