@@ -11,9 +11,10 @@ spec:
     matchLabels:
       app: jenkins
   strategy:
-    kind: rollingUpdate
-    maxSurge: 40%
-    maxUnavailable: 40%
+    kind: 
+    rollingUpdate:
+      maxSurge: 40%
+      maxUnavailable: 40%
   template: 
     metadata:
       labels:
