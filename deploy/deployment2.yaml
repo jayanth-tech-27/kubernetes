@@ -11,7 +11,7 @@ spec:
     matchLabels:
       app: jenkins
   strategy:
-    kind: 
+    type: RollingUpdate
     rollingUpdate:
       maxSurge: 40%
       maxUnavailable: 40%
@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: jenkins
-          image: jenkins/jenkins:jdk-11
+          image: jenkins/jenkins:jdk11
           resources:
             limits:
               cpu: 2000m
